@@ -1133,3 +1133,83 @@ a:hover {
         padding: 0 1em;
     }
 }
+
+/* Mobile (Portrait) */
+
+@media screen and (max-width: 768px) {
+    /* BG */
+    @-moz-keyframes bg {
+        0% {
+            -moz-transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+        100% {
+            -moz-transform: translate3d(-412.5px, 0, 0);
+            -webkit-transform: translate3d(-412.5px, 0, 0);
+            -ms-transform: translate3d(-412.5px, 0, 0);
+            transform: translate3d(-412.5px, 0, 0);
+        }
+    }
+    @-webkit-keyframes bg {
+        0% {
+            -moz-transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+        100% {
+            -moz-transform: translate3d(-412.5px, 0, 0);
+            -webkit-transform: translate3d(-412.5px, 0, 0);
+            -ms-transform: translate3d(-412.5px, 0, 0);
+            transform: translate3d(-412.5px, 0, 0);
+        }
+    }
+    @-ms-keyframes bg {
+        0% {
+            -moz-transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+        100% {
+            -moz-transform: translate3d(-412.5px, 0, 0);
+            -webkit-transform: translate3d(-412.5px, 0, 0);
+            -ms-transform: translate3d(-412.5px, 0, 0);
+            transform: translate3d(-412.5px, 0, 0);
+        }
+    }
+    @keyframes bg {
+        0% {
+            -moz-transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+        100% {
+            -moz-transform: translate3d(-412.5px, 0, 0);
+            -webkit-transform: translate3d(-412.5px, 0, 0);
+            -ms-transform: translate3d(-412.5px, 0, 0);
+            transform: translate3d(-412.5px, 0, 0);
+        }
+    }
+    #bg {
+        background-size: 412.5px auto;
+        width: 1237.5px;
+        /* background-image: url('images/bg2.jpg');
+			background-repeat: no-repeat;
+			background-size: 500px; */
+        background: white url("images/bg2.jpg") bottom left;
+        background-repeat: repeat-x;
+        height: 100%;
+        left: 0;
+        opacity: 1;
+        position: fixed;
+        top: 0;
+    }
+    /* Header */
+    #header nav {
+        padding: 0 1em;
+    }
+}
